@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+<style>
+	p {
+  border: black 1px solid;
+  height: 60px;
+	}
+	p.p1 {
+	  width: 300px;
+	}
+	p.p2 {
+	  width: 350px;
+	}
+	p.p3 {
+	  width: 90%;
+	}
+	p.p4 {
+	  min-width: 300px;
+	  width: 90%;
+	}
+	p.p5 {
+	  max-width: 350px;
+	  width: 90%;
+	}
+	p.p6 {
+	  max-width: 600px;
+	  min-width: 500px;
+	  width: 90%;
+}	
+</style>
+</head>
+<body>
+	  <p class="p1">width: 300px;</p>
+
+  <p class="p2">width: 350px;</p>
+
+  <p class="p3">width: 90%;</p>
+
+  <p class="p4">width: 90%; <br>min-width: 300px;</p>
+
+  <p class="p5">width: 90%; <br>max-width: 350px;</p>
+
+  <p class="p6">width: 90%; <br>min-width: 500px; max-width: 600px;</p>
+
+</body>
+</html>
